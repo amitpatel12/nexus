@@ -25,8 +25,8 @@ const StoreLocator = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
   return (
     <div className='w-full py-20 text-[#333333]'>
-        <div className='lg:pl-16 pl-4 sm:pl-20 flex lg:justify-between gap-5 flex-col lg:flex-row '>
-      <div className='flex flex-col gap-8 lg:w-[25%] sm:w-[80%] pr-4 sm:pr-0 sm:pl-5 lg:pl-0 '>
+        <div className='lg:pl-16 pl-4 lg:pr-0 lg:py-0 sm:pl-20 flex lg:justify-between gap-5 flex-col lg:flex-row p-4 '>
+      <div className='flex flex-col gap-8 lg:w-[25%] sm:w-[80%] lg:pr-4 sm:pr-0 sm:pl-5 lg:pl-0 '>
             <p className='text-[24px] font-[500]'>Store locator</p>
             <p className=''>Our consultants are available to host you in-store and provide tailored guidance on gift purchases. </p>
             <button className='border-[1px] p-3 py-4 flex justify-between items-center group hover:bg-[#333] hover:border-[#333] duration-500 sm:max-w-[300px] text-[14px]'>
@@ -36,17 +36,17 @@ const StoreLocator = () => {
       </div>
 
       
-      <div className="w-[63%] relative group pb-7 overflow-hidden">
+      <div className="lg:w-[63%] w-full relative group pb-7 overflow-hidden">
       <Slider {...settings} ref={slideRef} className="flex flex-col w-full">
             <div  className='max-h-[70vh] '>
                 <img src={img1} alt='hell' className='object-fit'/>
             </div>
 
-            <div className='max-h-[50vh] w-[80%]'>
+            <div className='max-h-[50vh] lg:w-[80%]'>
                 <img src={img2}/>
             </div>
 
-            <div className='max-h-[50vh] w-[80%]'>
+            <div className='max-h-[50vh] lg:w-[80%]'>
                 <img src={img3}/>
             </div>
         </Slider>

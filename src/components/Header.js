@@ -231,11 +231,11 @@ const Header = () => {
                 stone circle whose meaning has been lost to time—earthy
                 minerality commingling with Frankincense, Hay and Myrrh.
               </p>
-              <button className="border-[1px] p-3 py-4 flex justify-between items-center group hover:bg-black hover:border-[#333] duration-200 sm:max-w-[300px] text-[14px] cursor-pointer ">
+              <button className="border-[1px] border-[#333333] p-3 py-4 flex justify-between items-center group hover:bg-black hover:border-[#333] duration-200 sm:max-w-[300px] text-[14px] cursor-pointer bg-transparent">
                 <p className="group-hover:text-white">Discover Ouranon</p>
                 <BsArrowRightShort
                   size={25}
-                  className="text-white group-hover:text-white"
+                  className="text-[#333333] group-hover:text-white"
                 />
               </button>
             </div>
