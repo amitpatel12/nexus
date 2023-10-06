@@ -17,7 +17,6 @@ import Efficacious from "./components/Efficacious";
 import StoreLocator from "./components/StoreLocator";
 
 function App() {
-  // const count = useSelector((state) => state.items.value);
   const { isSearch} = useSelector((state) => state.items)
  
 
